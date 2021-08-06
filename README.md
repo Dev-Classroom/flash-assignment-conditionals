@@ -1,6 +1,6 @@
 # Flash Assignment: Conditional Logic
 
-![The man!](https://media.giphy.com/media/v0eHX3n28wvoQ/giphy.gif)
+![The man!](http://gph.is/2IbgFvG)
 
 ## Assignment Overview
 
