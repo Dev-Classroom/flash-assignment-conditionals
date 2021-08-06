@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flash Assignment: Conditionals</title>
+  </head>
+  <body></body>
+
+  <script>
+    // 1. Construct a statement that, if it's raining, will return a message to the console alerting the user they should bring an umbrella. Otherwise, a message should log to the console letting them know they're good without one.
+
+    var raining = true;
+
+    // 2. Teachers have to write emails home for any assessment grades 70 or below. Construct a statement that will evaluate the `grade` variable below and tell the teacher whether or not they need to send an email home.
+
+    var grade = 65;
+
+    // 3. Below are two variables: `hwDone` and `testTomorrow`. A message should be logged to the console ONLY if they both have their homework complete and no tests tomorrow.
+
+    hwDone = true;
+    testTomorrow = false;
+
+    // 4. Complete the construction of the function below. It should accept a number as an argument. Within the function, it should evaluate whether or not the number is even. If the number is even AND it's between 10 or 20, a message should be passed to the console alerting the user that the number is 'MAGIC!'
+
+    function isMagic(number) {
+      // Check to see if the number is even
+      var even = number % 2; // this will return 0 (true) 1 (false)
+      // TODO: if-statement evaluating evenness and if within range
+    }
+
+    // TODO: Call your isMagic() function to test it with a number that is magic and one that isn't.
+
+    // 5. Using the object below, write a function that evaluates whether or not a student's score is below 70 for a test. If it is, log a
+    // message to the console using the properties from the object that lets the student's parents know about the low grade.
+    // Place this function inside of a forEach() loop so it runs on all the tests in the array.
+    var tests = [
+      {
+        student: `Bart Simpson`,
+        testName: `North America Region`,
+        courseName: `Geography`,
+        teacher: `Mr. Crowe`,
+        testGrade: 65,
+      },
+      {
+        student: `Lisa Simpson`,
+        testName: `North America Region`,
+        courseName: `Geography`,
+        teacher: `Mr. Crowe`,
+        testGrade: 100,
+      },
+      {
+        student: `Maggie Simpson`,
+        testName: `North America Region`,
+        courseName: `Geography`,
+        teacher: `Mr. Crowe`,
+        testGrade: 97,
+      },
+      {
+        student: `Nelson Muntz`,
+        testName: `North America Region`,
+        courseName: `Geography`,
+        teacher: `Mr. Crowe`,
+        testGrade: 45,
+      },
+      {
+        student: `Milhouse Van Houten `,
+        testName: `North America Region`,
+        courseName: `Geography`,
+        teacher: `Mr. Crowe`,
+        testGrade: 90,
+      },
+    ];
+  </script>
+</html>
